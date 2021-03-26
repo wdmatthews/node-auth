@@ -1,0 +1,20 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "description": "A simple authentication system for Node.js, including middleware for preventing page access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wesley Matthews",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^3.6.5"
+  }
+}
